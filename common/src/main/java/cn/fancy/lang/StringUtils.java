@@ -3,8 +3,8 @@
  */
 package cn.fancy.lang;
 
-import com.jeesite.common.codec.EncodeUtils;
-import com.jeesite.common.collect.ListUtils;
+import cn.fancy.codec.EncodeUtils;
+import cn.fancy.collect.ListUtils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.List;

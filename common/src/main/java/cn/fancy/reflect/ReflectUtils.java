@@ -5,8 +5,8 @@
  */
 package cn.fancy.reflect;
 
-import com.jeesite.common.lang.DateUtils;
-import com.jeesite.common.lang.ObjectUtils;
+import cn.fancy.lang.DateUtils;
+import cn.fancy.lang.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.Validate;
 import org.apache.poi.ss.usermodel.DateUtil;

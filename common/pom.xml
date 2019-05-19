@@ -40,21 +40,7 @@
 				<artifactId>persistence-api</artifactId>
 				<version>1.0</version>
 			</dependency>
-			 <dependency>
-				<groupId>com.github.jsqlparser</groupId>
-				<artifactId>jsqlparser</artifactId>
-			</dependency>
-			<!--分页插件 -->
-			<dependency>
-				<groupId>com.github.pagehelper</groupId>
-				<artifactId>pagehelper</artifactId>
-				<scope>runtime</scope>
-			</dependency>
-			<!--通用Mapper -->
-			<dependency>
-				<groupId>com.github.abel533</groupId>
-				<artifactId>mapper</artifactId>
-			</dependency>
+
 
 		<!-- Logging begin -->
 		<dependency>
@@ -186,7 +172,19 @@
 			<artifactId>commons-text</artifactId>
 			<version>${commons-text.version}</version>
 		</dependency>
+		<!-- Apache Tools Ant Tar Zip  -->
+		<dependency>
+			<groupId>org.apache.ant</groupId>
+			<artifactId>ant</artifactId>
+			<version>${ant.version}</version>
+		</dependency>
 
+		<!-- Java serialization -->
+		<dependency>
+			<groupId>de.ruedigermoeller</groupId>
+			<artifactId>fst</artifactId>
+			<version>${fst.version}</version>
+		</dependency>
 
 	</dependencies>
 </project>
