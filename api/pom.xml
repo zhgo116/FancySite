@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>api</artifactId>
+    <packaging>jar</packaging>
+
+    <name>api</name>
+    <url>http://maven.apache.org</url>
+
+    <parent>
+        <groupId>cn.fancy</groupId>
+        <artifactId>root</artifactId>
+        <relativePath>../root/pom.xml</relativePath>
+        <version>1.0</version>
+    </parent>
+
+
+    <dependencies>
+
+    </dependencies>
+    <build>
+        <defaultGoal>compile</defaultGoal>
+        <finalName>fancyapi</finalName>
+    </build>
+
+
+    <groupId>cn.fancy</groupId>
+    <version>1.0</version>
+</project>
