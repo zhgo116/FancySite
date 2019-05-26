@@ -3,7 +3,7 @@
  */
 package cn.fancy.codec;
 
-import com.jeesite.common.lang.ExceptionUtils;
+import cn.fancy.lang.ExceptionUtils;
 import org.apache.commons.lang3.Validate;
 
 import java.io.IOException;

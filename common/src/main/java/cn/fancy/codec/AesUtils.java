@@ -3,7 +3,8 @@
  */
 package cn.fancy.codec;
 
-import com.jeesite.common.lang.ExceptionUtils;
+
+import cn.fancy.lang.ExceptionUtils;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
@@ -13,7 +14,6 @@ import javax.crypto.spec.SecretKeySpec;
 import java.io.UnsupportedEncodingException;
 import java.security.GeneralSecurityException;
 import java.security.SecureRandom;
-
 /**
  * AES加密解密工具类
  * @author ThinkGem

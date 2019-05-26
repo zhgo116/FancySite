@@ -5,9 +5,9 @@
  */
 package cn.fancy.codec;
 
-import com.jeesite.common.collect.ListUtils;
-import com.jeesite.common.lang.ExceptionUtils;
-import com.jeesite.common.lang.StringUtils;
+import cn.fancy.collect.ListUtils;
+import cn.fancy.lang.ExceptionUtils;
+import cn.fancy.lang.StringUtils;
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.codec.binary.Hex;

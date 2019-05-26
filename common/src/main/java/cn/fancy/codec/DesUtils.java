@@ -3,7 +3,8 @@
  */
 package cn.fancy.codec;
 
-import com.jeesite.common.lang.StringUtils;
+
+import cn.fancy.lang.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
