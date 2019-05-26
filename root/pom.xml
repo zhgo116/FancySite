@@ -18,7 +18,6 @@
     </parent>
 
 
-
     <!--设置项目子模块 -->
     <modules>
         <module>../service</module>
@@ -74,6 +73,6 @@
         </developer>
     </developers>
     <name>root</name>
-    <url>www.fancy.com</url>
+    <url>https://github.com/zhgo116</url>
     <description>this is my fancyroot</description>
 </project>
