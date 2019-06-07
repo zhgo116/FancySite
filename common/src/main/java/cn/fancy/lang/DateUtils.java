@@ -8,6 +8,7 @@ import org.apache.commons.lang3.time.FastDateFormat;
 
 import java.lang.management.ManagementFactory;
 import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -316,7 +317,32 @@ public class DateUtils extends org.apache.commons.lang3.time.DateUtils {
 		}
 		return new Date[]{beginDate, endDate};
 	}
-	
+
+	public static Date getDateEnd(Date date) {
+		if(date==null) {
+			return null;
+		}
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		try {
+			date= sdf.parse(formatDate(date, "yyyy-MM-dd") +" 23:59:59");
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return date;
+	}
+	/**
+	 * long 转为 日期
+	 * @param time
+	 * @return
+	 */
+	public static String formatLongToStr(long time, String pattern){
+
+		SimpleDateFormat sdf= new SimpleDateFormat(pattern);
+		Date date = new Date(time);
+		String sDateTime = sdf.format(date);  //得到精确到秒的表示：08/31/2006 21:08:00
+		return sDateTime;
+	}
+
 //	public static void main(String[] args) throws ParseException {
 //		System.out.println(formatDate(parseDate("2010/3/6")));
 //		System.out.println(getDate("yyyy年MM月dd日 E"));
