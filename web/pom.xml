@@ -14,7 +14,7 @@
 
     <version>1.0</version>
     <properties>
-        <start-class>cn.fancy.modules.Application</start-class>
+        <start-class>cn.fancy.Application</start-class>
         <eclipse-plugin-download-sources>false</eclipse-plugin-download-sources>
         <eclipse-plugin-download-javadocs>false</eclipse-plugin-download-javadocs>
         <finalName>web</finalName><!-- war包的名称 -->
